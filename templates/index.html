@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rumah Balikpapan</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles/main.css') }}"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="{{ url_for('static', filename='images/rumah.png') }}"
+    />
+  </head>
+  <body>
+    <h1>Prediksi Harga Rumah di Balikpapan</h1>
+    <form action="{{ url_for('predict') }}" method="post">
+      <!-- [kamar_tidur, LB, LH, BB, BK, BS, BTE, BTI, BU] -->
+      <label for="kamar_tidur">Masukkan Jumlah Kamar Tidur</label>
+      <input
+        type="number"
+        name="kamar_tidur"
+        placeholder="Kamar Tidur"
+        required
+      />
+
+      <label for="luas_bangunan">Masukkan Luas Bangunan (m²)</label>
+      <input
+        type="number"
+        name="luas_bangunan"
+        placeholder="Luas Bangunan (m²)"
+        required
+      />
+
+      <label for="luas_bangunan">Masukkan Luas Lahan (m²)</label>
+      <input
+        type="number"
+        name="luas_lahan"
+        placeholder="Luas Lahan (m²)"
+        required
+      />
+
+      <label for="kecamatan">Masukkan Kecamatan:</label>
+      <select name="kecamatan" required>
+        <option value="" hidden>Pilih Kecamatan</option>
+        <option value="Balikpapan Barat">Balikpapan Barat</option>
+        <option value="Balikpapan Kota">Balikpapan Kota</option>
+        <option value="Balikpapan Selatan">Balikpapan Selatan</option>
+        <option value="Balikpapan Tengah">Balikpapan Tengah</option>
+        <option value="Balikpapan Timur">Balikpapan Timur</option>
+        <option value="Balikpapan Utara">Balikpapan Utara</option>
+      </select>
+
+      <input
+        type="submit"
+        value="Submit"
+        style="
+          margin-top: 10px;
+          border-radius: 5px;
+          background-color: aliceblue;
+        "
+      />
+    </form>
+
+    {% if harga %}
+    <main>
+      <p>Rumah dengan :</p>
+      <ul>
+        <li>{{ request.form.get('kamar_tidur') }} kamar tidur</li>
+        <li>
+          Luas bangunan sebesar {{ request.form.get('luas_bangunan') }} m²
+        </li>
+        <li>Luas lahan sebesar {{ request.form.get('luas_lahan') }} m²</li>
+        <li>Di kecamatan {{ request.form.get('kecamatan') }}</li>
+      </ul>
+
+      <p>Memiliki kisaran harga :</p>
+      <p>{{ harga }}</p>
+    </main>
+    {% endif %}
+  </body>
+</html>
