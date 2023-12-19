@@ -13,7 +13,8 @@
 </p>
 
 <h2>Model</h2>
-<p>My model has a test score of 0.7301 on a new unseen data</p>
+<p>Im using scikit-learn's RandomForestRegressor model</p>
+<p>The model has a test score of 0.7301 on a new unseen data</p>
 
 <h2>Deployment</h2>
 <p>
