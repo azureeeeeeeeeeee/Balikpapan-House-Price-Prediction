@@ -12,6 +12,9 @@
  <a href='https://www.lamudi.com/'>Lamudi</a>
 </p>
 
+<h2>Model</h2>
+<p>My model has a test score of 0.7301 on a new unseen data</p>
+
 <h2>Deployment</h2>
 <p>
  I deploy the web app using <a href="https://render.com/">Render</a>
