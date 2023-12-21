@@ -16,6 +16,11 @@
 <p>Im using scikit-learn's RandomForestRegressor model</p>
 <p>The model has a test score of 0.7301 on a new unseen data</p>
 
+<h2>Asset</h2>
+<p>
+ Some of the asset in the website is from <a href="https://pngtree.com/">pngtree</a>
+</p>
+
 <h2>Deployment</h2>
 <p>
  I deploy the web app using <a href="https://render.com/">Render</a>
@@ -24,9 +29,3 @@
   You guys can view my project on :
   https://balikpapan-housing-price.onrender.com/
 </p>
-
-<footer>
- <p>
-  Some of the asset i use is from <a href="https://pngtree.com/">pngtree</a>
- </p>
-</footer>
