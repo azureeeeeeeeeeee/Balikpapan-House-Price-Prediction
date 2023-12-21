@@ -24,3 +24,9 @@
   You guys can view my project on :
   https://balikpapan-housing-price.onrender.com/
 </p>
+
+<footer>
+ <p>
+  Some of the asset i use is from <a href="https://pngtree.com/">pngtree</a>
+ </p>
+</footer>
