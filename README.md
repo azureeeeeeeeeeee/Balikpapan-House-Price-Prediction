@@ -17,13 +17,13 @@
 <h2>Usage</h2>
 <p>
  Install all dependencies with
- ```
-pip install -r requirements.txt
- ```
+ <code>
+  pip install -r requirements.txt
+ </code>
 </p>
 <p>
   Run the project :
-  ```
- python app.py
-  ```
+  <code>
+   python app.py
+  </code>
 </p>
