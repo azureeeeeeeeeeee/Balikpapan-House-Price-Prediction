@@ -16,14 +16,10 @@
 
 <h2>Usage</h2>
 <p>
- Install all dependencies with<br>
- <code>
-  pip install -r requirements.txt
- </code><br>
+ Install all dependencies with
+ <code>pip install -r requirements.txt</code>
 </p>
 <p>
   Run the project :
-  <code>
-   python app.py
-  </code>
+  <code>python app.py</code>
 </p>
