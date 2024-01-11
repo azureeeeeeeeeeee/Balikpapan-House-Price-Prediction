@@ -1,4 +1,4 @@
- <h1>Balikpapan Housing Price Prediction</h1>
+ <h1>Spam Email Detector</h1>
 <p>
   A text classification project with transfer learning using <a href='https://www.kaggle.com/models/tensorflow/bert/frameworks/TensorFlow2/variations/bert-en-uncased-l-12-h-128-a-2/versions/2'>Google Bert</a> and 
  TensorFlow
