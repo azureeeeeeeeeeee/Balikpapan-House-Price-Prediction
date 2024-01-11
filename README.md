@@ -8,7 +8,7 @@
  All the data im using is scraped using BeautifulSoup4
 </p>
 <p>
- View the site i scraped it from : <a target="_blank" href="lamudi.com">Lamudi</a>
+ View the site i scraped it from lamudi.com
 </p>
 
 <h2>Model</h2>
@@ -16,6 +16,6 @@
 <p>The model has a test score of 0.7301 on a new unseen data</p>
 
 <h2>Deploy</h2>
-<p>Im deploying the site using <a target="_blank" href="render.com">Render</a></p>
+<p>Im deploying the site using render.com</a></p>
 <p>View the site here :</p>
 <p>https://balikpapan-housing-price.onrender.com/</p>
