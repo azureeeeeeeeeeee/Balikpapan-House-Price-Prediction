@@ -20,6 +20,6 @@
  <code>pip install -r requirements.txt</code>
 </p>
 <p>
-  Run the project :
+  Run the project 
   <code>python app.py</code>
 </p>
