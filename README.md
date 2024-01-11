@@ -10,7 +10,7 @@
 </p>
 
 <h2>Model</h2>
-<p>For the Preprocessing and encoder, im using <a href='https://www.kaggle.com/models/tensorflow/bert/frameworks/TensorFlow2/variations/bert-en-uncased-l-12-h-128-a-2/versions/2'>Google Bert</a></p>
+<p>For the Preprocessing and encoding, im using <a href='https://www.kaggle.com/models/tensorflow/bert/frameworks/TensorFlow2/variations/bert-en-uncased-l-12-h-128-a-2/versions/2'>Google Bert</a></p>
 <p>For the training, i use TensorFlow</p>
 <p>The model has a test score of 0.9652 on a new unseen data</p>
 
