@@ -1,31 +1,29 @@
  <h1>Balikpapan Housing Price Prediction</h1>
 <p>
-  A simple side-project using Random Forest Regressor with the implementation of scikit-learn's RandomForestRegressor() model
+  A text classification project with transfer learning using <a href='https://www.kaggle.com/models/tensorflow/bert/frameworks/TensorFlow2/variations/bert-en-uncased-l-12-h-128-a-2/versions/2'>Google Bert</a> and 
+ TensorFlow
 </p>
 
 <h2>Data Collection</h2>
 <p>
- All the data im using is from web scrapping using BeautifulSoup4
-</p>
-<p>
- The website i scrape it from is
- <a href='https://www.lamudi.com/'>Lamudi</a>
+ All the data im using can be found <ahref="https://github.com/azureeeeeeeeeeee/Email-Spam-Detector/blob/main/model/spam.csv">here</a>
 </p>
 
 <h2>Model</h2>
-<p>Im using scikit-learn's RandomForestRegressor model</p>
-<p>The model has a test score of 0.7301 on a new unseen data</p>
+<p>For the Preprocessing and encoder, im using <a href='https://www.kaggle.com/models/tensorflow/bert/frameworks/TensorFlow2/variations/bert-en-uncased-l-12-h-128-a-2/versions/2'>Google Bert</a></p>
+<p>For the training, i use TensorFlow</p>
+<p>The model has a test score of 0.9652 on a new unseen data</p>
 
-<h2>Asset</h2>
+<h2>Usage</h2>
 <p>
- Some of the asset in the website is from <a href="https://pngtree.com/">pngtree</a>
-</p>
-
-<h2>Deployment</h2>
-<p>
- I deploy the web app using <a href="https://render.com/">Render</a>
+ Install all dependencies with
+ ```
+pip install -r requirements.txt
+ ```
 </p>
 <p>
-  You guys can view my project on :
-  https://balikpapan-housing-price.onrender.com/
+  Run the project :
+  ```
+ python app.py
+  ```
 </p>
