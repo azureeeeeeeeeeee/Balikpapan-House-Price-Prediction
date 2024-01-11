@@ -16,6 +16,6 @@
 <p>The model has a test score of 0.7301 on a new unseen data</p>
 
 <h2>Deploy</h2>
-<p>Im deploying the site using render.com</a></p>
+<p>Im deploying the site using <a href="https://render.com/">render</a></p>
 <p>View the site here :</p>
 <p>https://balikpapan-housing-price.onrender.com/</p>
