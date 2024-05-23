@@ -1,4 +1,4 @@
- <h1>Spam Email Detector</h1>
+ <h1>Balikpapan Housing Price Prediction</h1>
 <p>
   A simple regression side-project to predict a housing price in balikpapan with scikit-learn's random forest
 </p>
